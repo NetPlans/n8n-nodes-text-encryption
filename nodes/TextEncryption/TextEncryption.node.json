@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-text-encryption",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Developer Tools"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/NetPlans/n8n-nodes-text-encryption#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/NetPlans/n8n-nodes-text-encryption#n8n-nodes-text-encryption"
+			}
+		]
+	}
+}
