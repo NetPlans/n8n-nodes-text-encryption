@@ -49,5 +49,10 @@
 	},
   "dependencies": {
     "cryptr": "^6.4.0"
+  },
+  "release-it": {
+    "git": {
+      "requireBranch": "master"
+    }
   }
 }
