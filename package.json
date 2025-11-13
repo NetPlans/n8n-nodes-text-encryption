@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-text-encryption",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "n8n community node for text encryption",
 	"license": "MIT",
 	"homepage": "https://github.com/NetPlans/n8n-nodes-text-encryption",
@@ -55,7 +55,7 @@
 			"requireBranch": "master"
 		}
 	},
-  "publishConfig": {
-    "access": "public"
-  }
+	"publishConfig": {
+		"access": "public"
+	}
 }
