@@ -1,6 +1,6 @@
 {
 	"name": "@netplans/n8n-nodes-text-encryption",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "n8n community node for text encryption",
 	"license": "MIT",
 	"homepage": "https://github.com/NetPlans/n8n-nodes-text-encryption",
@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/NetPlans/n8n-nodes-text-encryption.git"
+		"url": "git+https://github.com/NetPlans/n8n-nodes-text-encryption.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
@@ -47,12 +47,15 @@
 	"peerDependencies": {
 		"n8n-workflow": "*"
 	},
-  "dependencies": {
-    "cryptr": "^6.4.0"
-  },
-  "release-it": {
-    "git": {
-      "requireBranch": "master"
-    }
+	"dependencies": {
+		"cryptr": "^6.4.0"
+	},
+	"release-it": {
+		"git": {
+			"requireBranch": "master"
+		}
+	},
+  "publishConfig": {
+    "access": "public"
   }
 }
