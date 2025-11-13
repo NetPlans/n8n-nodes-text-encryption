@@ -1,6 +1,6 @@
 {
-	"name": "n8n-nodes-text-encryption",
-	"version": "1.0.0",
+	"name": "@netplans/n8n-nodes-text-encryption",
+	"version": "1.0.1",
 	"description": "n8n community node for text encryption",
 	"license": "MIT",
 	"homepage": "https://github.com/NetPlans/n8n-nodes-text-encryption",
