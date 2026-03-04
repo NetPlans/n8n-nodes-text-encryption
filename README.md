@@ -36,7 +36,8 @@ Tested with n8n v1.119.1.
 
 ## Version history
 
-|Version|Changes|
-|---|---|
-|1.0.0|Initial release|
+| Version | Changes                              |
+|---------|--------------------------------------|
+| 1.0.0   | Initial release                      |
+| 1.0.4   | Integrate auto deploy and provenance |
 

@@ -1,5 +1,6 @@
 /* eslint-disable n8n-nodes-base/node-filename-against-convention */
-import { type INodeTypeDescription, NodeConnectionType } from 'n8n-workflow';
+import { type INodeTypeDescription } from 'n8n-workflow';
+import { NodeConnectionTypes } from 'n8n-workflow/dist/esm/interfaces';
 
 export const versionDescription: INodeTypeDescription = {
 	displayName: 'Text Encryption',
@@ -7,18 +8,18 @@ export const versionDescription: INodeTypeDescription = {
 	group: ['input'],
 	version: 1,
 	icon: 'file:../../icons/textEncryption.svg',
-    description: 'Basic Text Encryption Node',
-    defaultVersion: 1,
+	description: 'Basic Text Encryption Node',
+	defaultVersion: 1,
 	defaults: {
-		name: 'Text Encryption'
+		name: 'Text Encryption',
 	},
-	inputs: [NodeConnectionType.Main],
-	outputs: [NodeConnectionType.Main],
+	inputs: [NodeConnectionTypes.Main],
+	outputs: [NodeConnectionTypes.Main],
 	credentials: [
 		{
 			name: 'textEncryptionApi',
 			required: true,
-		}
+		},
 	],
 	properties: [
 		{
@@ -37,16 +38,16 @@ export const versionDescription: INodeTypeDescription = {
 					name: 'Encrypt',
 					value: 'encrypt',
 					action: 'Encrypt a string',
-					description: 'Encrypt a string'
+					description: 'Encrypt a string',
 				},
 				{
 					name: 'Decrypt',
 					value: 'decrypt',
 					action: 'Decrypt a string',
-					description: 'Decrypt a string'
-				}
+					description: 'Decrypt a string',
+				},
 			],
-			default: 'encrypt'
+			default: 'encrypt',
 		},
 		{
 			displayName: 'Input String',
@@ -57,9 +58,9 @@ export const versionDescription: INodeTypeDescription = {
 			description: 'String to be encrypted',
 			displayOptions: {
 				show: {
-					operation: ['encrypt']
-				}
-			}
+					operation: ['encrypt'],
+				},
+			},
 		},
 		{
 			displayName: 'Input String',
@@ -70,9 +71,9 @@ export const versionDescription: INodeTypeDescription = {
 			description: 'String to be decrypted',
 			displayOptions: {
 				show: {
-					operation: ['decrypt']
-				}
-			}
-		}
-	]
+					operation: ['decrypt'],
+				},
+			},
+		},
+	],
 };
