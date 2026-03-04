@@ -1,6 +1,5 @@
 /* eslint-disable n8n-nodes-base/node-filename-against-convention */
-import { type INodeTypeDescription } from 'n8n-workflow';
-import { NodeConnectionTypes } from 'n8n-workflow/dist/esm/interfaces';
+import { type INodeTypeDescription, NodeConnectionTypes } from 'n8n-workflow';
 
 export const versionDescription: INodeTypeDescription = {
 	displayName: 'Text Encryption',
