@@ -7,7 +7,7 @@ export class TextEncryptionApi implements ICredentialType {
 	displayName = 'Text Encryption API';
 	documentationUrl = 'https://github.com/NetPlans/n8n-nodes-text-encryption/#credentials';
 
-	icon: string = 'file:../icons/textEncryption.svg';
+	icon = 'file:../icons/textEncryption.svg';
 
 	properties: INodeProperties[] = [
 		{
