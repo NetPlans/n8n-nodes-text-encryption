@@ -1,5 +1,5 @@
 /* eslint-disable n8n-nodes-base/node-filename-against-convention */
-import { type INodeTypeDescription, NodeConnectionTypes } from 'n8n-workflow';
+import { type INodeTypeDescription } from 'n8n-workflow';
 
 export const versionDescription: INodeTypeDescription = {
 	displayName: 'Text Encryption',
@@ -12,8 +12,8 @@ export const versionDescription: INodeTypeDescription = {
 	defaults: {
 		name: 'Text Encryption',
 	},
-	inputs: [NodeConnectionTypes.Main],
-	outputs: [NodeConnectionTypes.Main],
+	inputs: ['main'],
+	outputs: ['main'],
 	credentials: [
 		{
 			name: 'textEncryptionApi',
