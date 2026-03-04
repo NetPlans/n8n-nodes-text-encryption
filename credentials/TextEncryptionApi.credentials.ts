@@ -1,4 +1,4 @@
-import type { Icon, ICredentialType, INodeProperties } from 'n8n-workflow';
+import type { ICredentialType, INodeProperties } from 'n8n-workflow';
 
 // eslint-disable-next-line @n8n/community-nodes/credential-test-required
 export class TextEncryptionApi implements ICredentialType {
@@ -7,7 +7,7 @@ export class TextEncryptionApi implements ICredentialType {
 	displayName = 'Text Encryption API';
 	documentationUrl = 'https://github.com/NetPlans/n8n-nodes-text-encryption/#credentials';
 
-	icon: Icon = 'file:../icons/textEncryption.svg';
+	icon = 'file:../icons/textEncryption.svg';
 
 	properties: INodeProperties[] = [
 		{
